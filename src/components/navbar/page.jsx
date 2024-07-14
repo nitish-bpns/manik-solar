@@ -80,14 +80,7 @@ const Navbar = () => {
             className={styles.navBtn}
           />
         </Link>
-        {/* <Image
-          className={styles.engBtn}
-          src={english ? { meng } : { mhin }}
-          width={500}
-          alt="img"
-          style={{ height: "auto" }}
-          onClick={handleLineClickTow}
-        /> */}
+
         {!english && (
           <Image
             className={styles.engBtn}
